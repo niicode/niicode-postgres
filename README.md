@@ -21,8 +21,9 @@ To get a local copy up and running follow these simple example steps.
 - [Postman](https://www.postman.com/downloads/)
 
 ### Setup
-- Clone the repository to your local machine `git clone`
-- Create a database called `niicode-postgres`
+- Clone the repository to your local machine `git clone https://github.com/niicode/niicode-postgres.git
+  `
+- Create a database called `postgres`
 - Rename the `.env.example` file to `.env` and update the values/settings to your own
 Example:
 ```
@@ -30,7 +31,7 @@ DB_USER=postgres
 DB_PASSWORD=postgres
 DB_HOST=localhost
 DB_PORT=5432
-DB_DATABASE=niicode-postgres
+DB_DATABASE=postgres
 ```
 
 ### Install
