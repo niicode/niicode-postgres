@@ -23,7 +23,8 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 - Clone the repository to your local machine `git clone`
 - Create a database called `niicode-postgres`
-- Create a `.env` file in the root directory and add the following:
+- Rename the `.env.example` file to `.env` and update the values/settings to your own
+Example:
 ```
 DB_USER=postgres
 DB_PASSWORD=postgres
